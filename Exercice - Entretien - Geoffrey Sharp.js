@@ -14,7 +14,16 @@ describe('Exercice - Cypress - Maïa', function() {
 
     //cy.contains("Spécialité, praticien, établissement").type('Test QATECHNIQUE')
 
-    cy.get('div.suggestion').type('Test QA')
+    cy.get('div.suggestion').type('Test QATECHNIQUE')
+
+    cy.wait(400)
+
+    cy.get('#downshift-simple-item-0 > div').click()
+
+    cy.contains('Choisissez votre motif de consultation').click({force: true})
+
+    cy.get('#consultationReasonName').select('Ablation de fils');
+
 
  })
 
