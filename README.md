@@ -2,7 +2,8 @@
 Cypress - Maïa
 
 //Lien vers Repo Github privé, commité en plusieurs fois pour avoir la trâce du raisonnement
-->
+->https://github.com/geoffreylambertsharp/cypress_maia
+
 
 //Installation de l'environnement Cypress
 https://docs.cypress.io/guides/getting-started/installing-cypress.html#npm-install
@@ -20,7 +21,10 @@ https://github.com/geoffreylambertsharp/cypress_maia
 
 
 //Date à laquelle le test est positif
-
+Test positif : 20/04/2020 23:56:00
 
 
 //Configuration nécessaire à l'éxecution du projet
+1. Mac ou PC
+2. Test executé sur Chrome
+3. Sans être déja connecté à Maiia dans Chrome ou d'autres navigateurs
