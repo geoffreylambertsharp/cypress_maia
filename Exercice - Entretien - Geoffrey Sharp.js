@@ -1,4 +1,4 @@
-describe('Exercice - Cypress - Maïa', function() {
+describe('Exercice - Cypress - Maiia', function() {
 
  it('Création rendez-vous', function() {
 
@@ -24,6 +24,7 @@ describe('Exercice - Cypress - Maïa', function() {
 
     cy.get('#consultationReasonName').select('Ablation de fils');
 
+    cy.contains('Disponibilité')
 
  })
 
